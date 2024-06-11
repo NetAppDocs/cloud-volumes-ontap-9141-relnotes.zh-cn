@@ -1,0 +1,94 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: Cloud Volumes ONTAP 9.14.1提供了一项新的增强功能。 
+---
+= Cloud Volumes ONTAP 9.14.1中的新增功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP 9.14.1提供了新的增强功能。
+
+最新版本的BlueXP还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["《BlueXP发行说明》"^] 了解详细信息。
+
+
+
+== 9.14.1 P2 (2024年4月18日)
+
+9.14.1 P2修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.14.1P2["查看P2修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.14.1 P1 (2024年4月1日)
+
+9.14.1 P1修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.14.1P1["查看P1修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.14.1大会(2024年3月5日)
+
+Cloud Volumes ONTAP 9.14.1正式发布版现已在AWS、Azure和Google Cloud中推出。
+
+
+
+== 9.14.1 RC1 (2023年12月6日)
+
+Cloud Volumes ONTAP 9.14.1的候选版本1现已在AWS、Azure和Google Cloud中推出。
+
+
+
+== 升级说明
+
+通读这些注释、了解有关升级到此版本的更多信息。
+
+
+
+=== 如何升级
+
+必须从BlueXP完成Cloud Volumes ONTAP 升级。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。
+
+link:http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["了解在收到BlueXP通知时如何升级"^]。
+
+
+
+=== 支持的升级路径
+
+您可以从9.13.1和9.14.0版升级到Cloud Volumes ONTAP 9.14.1。BlueXP将提示您将符合条件的Cloud Volumes ONTAP 系统升级到此版本。
+
+
+
+=== 所需版本的Connector
+
+要部署新的Cloud Volumes ONTAP 9.14.1系统并将现有系统升级到9.14.1、BlueXP Connector必须运行3.9.27或更高版本。
+
+
+TIP: 默认情况下，连接器会自动升级，因此您应运行最新版本。
+
+
+
+=== 停机
+
+* 升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。
+* 升级 HA 对无中断， I/O 不会中断。在此无中断升级过程中，每个节点会同时进行升级，以继续为客户端提供 I/O 。
+
+
+
+
+=== 不再支持c4、m4和r4实例
+
+在AWS中、Cloud Volumes ONTAP 不再支持C4、M4和M4 EC2实例类型。如果现有系统运行的是C4、M4或r4实例类型、则必须更改为c5、M5或R5实例系列中的实例类型。只有在更改实例类型后才能升级到此版本。
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["了解如何更改Cloud Volumes ONTAP 的EC2实例类型"^]。
+
+请参见 link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["NetApp 支持"^] 了解有关这些实例类型的可用性和支持终止的更多信息。
