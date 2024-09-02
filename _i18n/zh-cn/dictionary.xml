@@ -773,4 +773,8 @@ HA对：18个、在一个节点中^1^</block>
   <block id="4d90d21642c7222312363da000d7409f" category="inline-link">查看P6修补程序中已修复的错误列表</block>
   <block id="bc5568aec017ad2e5cf0a5e90091f4c6" category="paragraph"><block ref="c6ea3d1829515f9d3bb15b101f831fb6" category="inline-link-rx"></block> (需要登录NetApp支持站点)。</block>
   <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>。</block>
+  <block id="890194399bbc46a6d256318488025c18" category="section-title">9.14.1 P7 (2024年8月29日)</block>
+  <block id="85575f1cf17c6f7c0cff15bbac0fda4b" category="paragraph">9.14.1 P7修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
+  <block id="7fa6a95154192207488dcc8bf13f9366" category="inline-link">查看P7修补程序中已修复的错误列表</block>
+  <block id="d02197ad3a3d980855960fa6ac44486e" category="paragraph"><block ref="dfa426c84f3d8dcbde32f8f8c07879b3" category="inline-link-rx"></block> (需要登录NetApp支持站点)。</block>
 </blocks>
