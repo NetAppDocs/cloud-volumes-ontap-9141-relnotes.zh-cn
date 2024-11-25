@@ -752,7 +752,6 @@ HA对：18个、在一个节点中^1^</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">发行说明主页</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure 酒店</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">已知限制</block>
@@ -781,4 +780,9 @@ HA对：18个、在一个节点中^1^</block>
   <block id="165dcfb526b6d1d3039c36417f4c9d22" category="paragraph">9.14.1 P8修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
   <block id="a5757ef07045a814bda504c5b48177c6" category="inline-link">查看P8修补程序中已修复的错误列表</block>
   <block id="883b2723fa4c7efe9f12fa9fbf8137ab" category="paragraph"><block ref="69dd6d0b993534cd7fb8846b6ef20239" category="inline-link-rx"></block> (需要登录NetApp支持站点)。</block>
+  <block id="6b00ba891287c66d1bdc5606dc4eebe7" category="section-title">9.14.1 P9 (2024年11月25日)</block>
+  <block id="be2595081094ffbb550e236fddedf5e3" category="paragraph">9.14.1 P9修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
+  <block id="4b99ccc66c896711e2667fd1c7cc5a70" category="inline-link">查看P9修补程序中已修复的错误列表</block>
+  <block id="fb8ea0e4d51a0d0169a671ee181b9aaf" category="paragraph"><block ref="2b0276e874ba4b91c515b88422e5a6f6" category="inline-link-rx"></block> (需要登录NetApp支持站点)。</block>
+  <block id="f1786ba391739a1a365a117fb19de2ea" category="sidebar">Cloud Volumes ONTAP 9.14.1发行说明</block>
 </blocks>
