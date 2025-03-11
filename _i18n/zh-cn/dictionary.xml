@@ -790,4 +790,8 @@ HA对：18个、在一个节点中^1^</block>
   <block id="f0de068c81c765820aca0fa8fe017396" category="paragraph">有关Azure区域支持，请参见<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
   <block id="9b986795dc6a434c7339bfecbd5e5c8b" category="paragraph">有关Google Cloud区域支持，请参见<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
   <block id="d798d4963d0ac509a1bda5483d9b9a52" category="paragraph"><block ref="5a94f18247116693735ff13d8eeaa964" category="inline-link-rx"></block>(英文)</block>
+  <block id="6fa1e8d083b895fd6fbe5cfc2f6aa31c" category="section-title">9.14.1 P11 (2025年3月10日)</block>
+  <block id="0ca5637d58b3091aee2c805b574d9b5b" category="paragraph">9.14.1 P11修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
+  <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link">查看P11修补程序中已修复的错误列表</block>
+  <block id="e388af5805a8702dc322460fd1cdc0c7" category="paragraph"><block ref="629011122d078f715e821ec2982a064c" category="inline-link-rx"></block> (需要登录NetApp支持站点)。</block>
 </blocks>
